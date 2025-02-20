@@ -51,7 +51,7 @@ const EntryList = ({ entries, selectedEntry, setSelectedEntry }) => {
                     Add New Entry
                 </button>
             </div>
-
+            <div className="divider -my-2"></div>
             {/* Filtered entry list */}
             <div className="flex flex-col gap-2">
                 {finalEntries.length > 0 ? (
