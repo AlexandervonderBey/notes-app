@@ -24,7 +24,7 @@ const FilterModal = ({ entries, setFilteredEntries }) => {
             );
         }
 
-        // 🔀 Sorting (title & date)
+        // Sorting (title & date)
         if (sortOption === "title-asc") {
             filtered.sort((a, b) => a.title.localeCompare(b.title));
         } else if (sortOption === "title-desc") {
